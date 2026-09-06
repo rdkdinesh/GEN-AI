@@ -27,4 +27,4 @@ model = ChatOpenAI(model="gpt-4o-mini")
 chain = prompt | model | StrOutputParser()
 
 #This is run automatically when the script is executed
-print(chain.invoke({"product": "colorful socks"}))
+print(chain.invoke({"product": "ice cream"}))
