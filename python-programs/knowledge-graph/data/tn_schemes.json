@@ -1,0 +1,502 @@
+[
+  {
+    "index": 1,
+    "details": "Home",
+    "link": "https://www.tn.gov.in/index.php"
+  },
+  {
+    "index": 2,
+    "details": "Government",
+    "link": "https://www.tn.gov.in/scheme_list.php?dep_id=Mg==#"
+  },
+  {
+    "index": 3,
+    "details": "Governor / Chief Minister / Chief Justice",
+    "link": "https://www.tn.gov.in/governor.php"
+  },
+  {
+    "index": 4,
+    "details": "Council of Ministers",
+    "link": "https://www.tn.gov.in/minister_list.php"
+  },
+  {
+    "index": 5,
+    "details": "MLA profile",
+    "link": "https://assembly.tn.gov.in/17thassembly_members.php"
+  },
+  {
+    "index": 6,
+    "details": "State Profile",
+    "link": "https://www.tn.gov.in/about_tn.php"
+  },
+  {
+    "index": 7,
+    "details": "Departments",
+    "link": "https://www.tn.gov.in/department_list.php"
+  },
+  {
+    "index": 8,
+    "details": "Districts",
+    "link": "https://www.tn.gov.in/scheme_list.php?dep_id=Mg==#"
+  },
+  {
+    "index": 9,
+    "details": "Districts",
+    "link": "https://www.tn.gov.in/district_list.php"
+  },
+  {
+    "index": 10,
+    "details": "Documents",
+    "link": "https://www.tn.gov.in/scheme_list.php?dep_id=Mg==#"
+  },
+  {
+    "index": 11,
+    "details": "G.Os",
+    "link": "https://www.tn.gov.in/godept_list.php"
+  },
+  {
+    "index": 12,
+    "details": "Policy notes / Performance Budget / Citizen Charter",
+    "link": "https://www.tn.gov.in/document_dept_list.php?cate_name=YWxs"
+  },
+  {
+    "index": 13,
+    "details": "Rules & Regulations",
+    "link": "https://www.tn.gov.in/rules.php"
+  },
+  {
+    "index": 14,
+    "details": "Circulars & notifications",
+    "link": "https://www.tn.gov.in/circular_notifications_dept_list.php"
+  },
+  {
+    "index": 15,
+    "details": "Announcements",
+    "link": "https://www.tn.gov.in/anndept_list.php"
+  },
+  {
+    "index": 16,
+    "details": "Acts",
+    "link": "https://www.tn.gov.in/act_ordinances.php"
+  },
+  {
+    "index": 17,
+    "details": "Services",
+    "link": "https://www.tn.gov.in/scheme_list.php?dep_id=Mg==#"
+  },
+  {
+    "index": 18,
+    "details": "Online Services",
+    "link": "https://www.tn.gov.in/services.php"
+  },
+  {
+    "index": 19,
+    "details": "Contact Directory",
+    "link": "https://www.tn.gov.in/contact_directory.php"
+  },
+  {
+    "index": 20,
+    "details": "Job Opportunity",
+    "link": "https://www.tn.gov.in/job_opportunity.php"
+  },
+  {
+    "index": 21,
+    "details": "Important Websites",
+    "link": "https://www.tn.gov.in/impweb_view.php?dep_id=QWxs"
+  },
+  {
+    "index": 22,
+    "details": "Census",
+    "link": "https://tn.census.gov.in/"
+  },
+  {
+    "index": 23,
+    "details": "Statistics",
+    "link": "https://www.tn.gov.in/deptst/"
+  },
+  {
+    "index": 24,
+    "details": "Employment Details",
+    "link": "https://www.tn.gov.in/employment.php"
+  },
+  {
+    "index": 25,
+    "details": "Grievances",
+    "link": "https://www.tn.gov.in/grievances.php"
+  },
+  {
+    "index": 26,
+    "details": "Forms",
+    "link": "https://www.tn.gov.in/formdept_list.php"
+  },
+  {
+    "index": 27,
+    "details": "RTI Contacts",
+    "link": "https://www.tn.gov.in/rti/"
+  },
+  {
+    "index": 28,
+    "details": "Mobile App Directory",
+    "link": "https://www.tn.gov.in/mobileappform.php"
+  },
+  {
+    "index": 29,
+    "details": "Schemes",
+    "link": "https://www.tn.gov.in/scheme_list.php?dep_id=Mg==#"
+  },
+  {
+    "index": 30,
+    "details": "Schemes",
+    "link": "https://www.tn.gov.in/schemes.php"
+  },
+  {
+    "index": 31,
+    "details": "News & Events",
+    "link": "https://www.tn.gov.in/scheme_list.php?dep_id=Mg==#"
+  },
+  {
+    "index": 32,
+    "details": "Press Releases",
+    "link": "https://www.tn.gov.in/press_release.php"
+  },
+  {
+    "index": 33,
+    "details": "Publications",
+    "link": "https://www.tamildigitallibrary.in/"
+  },
+  {
+    "index": 34,
+    "details": "Photo Gallery",
+    "link": "https://dipr.tn.gov.in/ords/r/dipr/info-prdept103/photo-gallery"
+  },
+  {
+    "index": 35,
+    "details": "Video Gallery",
+    "link": "https://dipr.tn.gov.in/ords/r/dipr/info-prdept103/video-gallery"
+  },
+  {
+    "index": 36,
+    "details": "Interact with Govt",
+    "link": "https://www.tn.gov.in/scheme_list.php?dep_id=Mg==#"
+  },
+  {
+    "index": 37,
+    "details": "Polls",
+    "link": "https://www.tn.gov.in/poll.php"
+  },
+  {
+    "index": 38,
+    "details": "Discussion Forum",
+    "link": "https://www.tn.gov.in/discuss.php"
+  },
+  {
+    "index": 39,
+    "details": "Others",
+    "link": "https://www.tn.gov.in/scheme_list.php?dep_id=Mg==#"
+  },
+  {
+    "index": 40,
+    "details": "What's New",
+    "link": "https://www.tn.gov.in/whatsnew.php?year=MjAyNg=="
+  },
+  {
+    "index": 41,
+    "details": "Help line Numbers",
+    "link": "https://www.tn.gov.in/help_desk.php"
+  },
+  {
+    "index": 42,
+    "details": "Holidays",
+    "link": "https://www.tn.gov.in/holiday.php"
+  },
+  {
+    "index": 43,
+    "details": "Sitemap",
+    "link": "https://www.tn.gov.in/sitemap.php"
+  },
+  {
+    "index": 44,
+    "details": "Feedback",
+    "link": "https://www.tn.gov.in/feedback.php"
+  },
+  {
+    "index": 45,
+    "details": "CSC Login",
+    "link": "https://edistricts.tn.gov.in:8443/certificates_csc/"
+  },
+  {
+    "index": 46,
+    "details": "What's New",
+    "link": "https://www.tn.gov.in/whatsnew.php?year=MjAyNg=="
+  },
+  {
+    "index": 47,
+    "details": "Training to Farmers",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTU2Ng=="
+  },
+  {
+    "index": 48,
+    "details": "Production of Foundation and Certified Seeds",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=ODAz"
+  },
+  {
+    "index": 49,
+    "details": "Distribution of Nuclear Poly Hedrosis Virus",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTI4MA=="
+  },
+  {
+    "index": 50,
+    "details": "Distribution of Rhizobium Packets - Oilseeds",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTQ1MQ=="
+  },
+  {
+    "index": 51,
+    "details": "Livelihood activities for asset less persons-2012",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=NDQw"
+  },
+  {
+    "index": 52,
+    "details": "Infrastructure subsidy for Privately Developed Industrial Estates.",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTY4"
+  },
+  {
+    "index": 53,
+    "details": "Production of Foundation Seeds",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTQ1Mg=="
+  },
+  {
+    "index": 54,
+    "details": "Distribution of Gypsum",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTQ5MQ=="
+  },
+  {
+    "index": 55,
+    "details": "Distribution of manually operated Plant Protection Equipment",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTQzNw=="
+  },
+  {
+    "index": 56,
+    "details": "Pipes carrying water from source to field - Pulses ISPOM",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTMxNA=="
+  },
+  {
+    "index": 57,
+    "details": "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector.",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=Mjg="
+  },
+  {
+    "index": 58,
+    "details": "Distribution of Rhizobium",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=OTE2"
+  },
+  {
+    "index": 59,
+    "details": "Distribution of Soil Health card",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTQzOA=="
+  },
+  {
+    "index": 60,
+    "details": "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=Nw=="
+  },
+  {
+    "index": 61,
+    "details": "Training of Farmers on Pulses Production Technologies",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTA1OQ=="
+  },
+  {
+    "index": 62,
+    "details": "Subsidy on the assessed Value Added Tax (VAT)",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=NQ=="
+  },
+  {
+    "index": 63,
+    "details": "Distribution of Certified seeds - Oil Seeds",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=OTIw"
+  },
+  {
+    "index": 64,
+    "details": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTQxMg=="
+  },
+  {
+    "index": 65,
+    "details": "Quality Paddy seed Distribution",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTQwMQ=="
+  },
+  {
+    "index": 66,
+    "details": "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTY3"
+  },
+  {
+    "index": 67,
+    "details": "Organizing Block Demonstration through Department and also through TNAU",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTE0Mw=="
+  },
+  {
+    "index": 68,
+    "details": "Generator subsidy",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTU="
+  },
+  {
+    "index": 69,
+    "details": "Production of Certified Seeds",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTQyMQ=="
+  },
+  {
+    "index": 70,
+    "details": "Organizing Block demonstration on Polythene mulch Technology in Groundnut",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTUwMg=="
+  },
+  {
+    "index": 71,
+    "details": "Special capital subsidy for thrust sector enterprises",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTQ="
+  },
+  {
+    "index": 72,
+    "details": "Distribution of Minikits at free of cost",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=ODIy"
+  },
+  {
+    "index": 73,
+    "details": "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=Mg=="
+  },
+  {
+    "index": 74,
+    "details": "Unemployed Youth Employment Generation Programme (UYEGP)",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MzM="
+  },
+  {
+    "index": 75,
+    "details": "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTM5OQ=="
+  },
+  {
+    "index": 76,
+    "details": "Price Preference for Micro and Small Enterprises in Government purchases",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MjE="
+  },
+  {
+    "index": 77,
+    "details": "Farmers Training",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTA0NA=="
+  },
+  {
+    "index": 78,
+    "details": "Farm Production System and micro enterprises - Sponsored By State Govt",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTE3"
+  },
+  {
+    "index": 79,
+    "details": "Waiver of Earnest Money Deposit for participation in Tenders",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MjQ="
+  },
+  {
+    "index": 80,
+    "details": "Distribution of Certified Seeds of maize",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTQyMw=="
+  },
+  {
+    "index": 81,
+    "details": "Subsidy on the cost of Patent Registration in India or abroad",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MjU="
+  },
+  {
+    "index": 82,
+    "details": "Organizing Block Demonstration",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTIyOA=="
+  },
+  {
+    "index": 83,
+    "details": "Reservation for Micro Enterprises in TANSIDCO Industrial Estates",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTY2"
+  },
+  {
+    "index": 84,
+    "details": "Reimbursement of hall rent for conducting exhibition by MSME Association",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MjY="
+  },
+  {
+    "index": 85,
+    "details": "Term loan obtained under NEF scheme of TIIC (Renamed as Micro/Small Enterprises Funding Scheme)",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTc="
+  },
+  {
+    "index": 86,
+    "details": "Low Tension power tariff subsidy",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTM="
+  },
+  {
+    "index": 87,
+    "details": "Subsidy on the cost of Trade Mark Registration in India or abroad",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=Mjc="
+  },
+  {
+    "index": 88,
+    "details": "Farmers Interest Group (FIG)",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTA5Mw=="
+  },
+  {
+    "index": 89,
+    "details": "Pipes carrying water from source to field",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTU2OQ=="
+  },
+  {
+    "index": 90,
+    "details": "Term loan obtained for Technology upgradation / modernisation schemes",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTY="
+  },
+  {
+    "index": 91,
+    "details": "Livelihood activities for asset less persons - Sponsored By State Govt",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTE4"
+  },
+  {
+    "index": 92,
+    "details": "Skill Development Training Schemes and Skill Upgradation Training Schemes",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MzE="
+  },
+  {
+    "index": 93,
+    "details": "Micro Nutrient spray",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTI1NA=="
+  },
+  {
+    "index": 94,
+    "details": "Term loan obtained under Credit Guarantee Fund Trust Scheme",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTk="
+  },
+  {
+    "index": 95,
+    "details": "Visit of Contract Farming farmers to the Research Stations in Karnataka",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=ODk5"
+  },
+  {
+    "index": 96,
+    "details": "Term loan obtained for ISO Certification/R&D under NSICTANSIDCO Consortium",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTg="
+  },
+  {
+    "index": 97,
+    "details": "Integrated Pest Management Demonstration cum Training",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTQ2MQ=="
+  },
+  {
+    "index": 98,
+    "details": "Stamp duty exemption on mortgaged and pledged documents",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=OA=="
+  },
+  {
+    "index": 99,
+    "details": "Distribution of Gypsum - Oil Seeds",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=MTU0NA=="
+  },
+  {
+    "index": 100,
+    "details": "Production of Certified Seeds of Maize",
+    "link": "https://www.tn.gov.in/scheme_details.php?id=OTAw"
+  }
+]

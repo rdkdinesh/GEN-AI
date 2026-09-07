@@ -1,0 +1,7 @@
+playwright
+langchain
+langchain-core
+langchain-openai
+langchain-neo4j
+neo4j
+python-dotenv
