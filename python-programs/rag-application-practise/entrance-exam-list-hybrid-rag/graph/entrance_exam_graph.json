@@ -1,0 +1,1173 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "EXAM",
+      "full_name": "Joint Entrance Examination Main",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "http://jeemain.nic.in",
+      "id": "JEE Main"
+    },
+    {
+      "type": "COURSE",
+      "id": "B.E"
+    },
+    {
+      "type": "COURSE",
+      "id": "B.Tech"
+    },
+    {
+      "type": "COURSE",
+      "id": "B.Arch"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "NITs"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "IIITs"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Indian Institute of Technology Joint Entrance Exam",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.advance.nic.in",
+      "id": "JEE Advanced"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "IITs"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "National Eligibility Entrance Test",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.aipmt.nic.in",
+      "id": "NEET"
+    },
+    {
+      "type": "COURSE",
+      "id": "MBBS"
+    },
+    {
+      "type": "COURSE",
+      "id": "BDS"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Medical Colleges in India"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Armed Forces Medical College Entrance Exam",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.afmc.nic.in",
+      "id": "AFMC"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Armed Forces Medical College"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "National Entrance Exam for Design",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.nid.edu",
+      "id": "NID NEED"
+    },
+    {
+      "type": "COURSE",
+      "id": "Design"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "National Institute of Design"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Other Design Institutes"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Common Law Admission Test",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.clat.ac.in",
+      "id": "CLAT"
+    },
+    {
+      "type": "COURSE",
+      "id": "Law"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "National Law Universities"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Birla Institute of Technology and Science Admission Test",
+      "exam_type": "Online Exam",
+      "location": "",
+      "website": "www.bits-pilani.ac.in",
+      "id": "BITSAT"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "BITS Pilani"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "BITS Hyderabad"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "BITS Goa"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "National Council for Hotel Management Catering Technology Joint Entrance Exam",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.nchm.nic.in",
+      "id": "NCHMCT"
+    },
+    {
+      "type": "COURSE",
+      "id": "B.Sc Hospitality"
+    },
+    {
+      "type": "COURSE",
+      "id": "Hotel Administration"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Hotel Management Institutes"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "National Defense Academy and Naval Academy",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.nda.nic.in",
+      "id": "NDA and NA"
+    },
+    {
+      "type": "COURSE",
+      "id": "Army"
+    },
+    {
+      "type": "COURSE",
+      "id": "Navy"
+    },
+    {
+      "type": "COURSE",
+      "id": "Air Force"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "National Defense Academy"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Naval Academy"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Indian Institute of Space Technology",
+      "exam_type": "Written Exam",
+      "location": "Thiruvananthapuram",
+      "website": "www.iist.ac.in",
+      "id": "IIST"
+    },
+    {
+      "type": "COURSE",
+      "id": "B.Tech Avionics"
+    },
+    {
+      "type": "COURSE",
+      "id": "Aerospace Engineering"
+    },
+    {
+      "type": "COURSE",
+      "id": "Physical Science"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Indian Institute of Space Technology"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Jawaharlal Nehru University",
+      "exam_type": "Written Exam",
+      "location": "New Delhi",
+      "website": "www.jnu.ac.in",
+      "id": "JNU"
+    },
+    {
+      "type": "COURSE",
+      "id": "B.A Foreign Language"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Jawaharlal Nehru University"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Indian Statistical Institute",
+      "exam_type": "Written Exam",
+      "location": "Kolkata / Bengaluru",
+      "website": "www.isical.ac.in",
+      "id": "ISI"
+    },
+    {
+      "type": "COURSE",
+      "id": "B.Sc Statistics"
+    },
+    {
+      "type": "COURSE",
+      "id": "B.Sc Mathematics"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "ISI Kolkata"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "ISI Bengaluru"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Indian Institutes of Science Education and Research",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.iiserpune.ac.in",
+      "id": "IISER"
+    },
+    {
+      "type": "COURSE",
+      "id": "BS-MS Biology"
+    },
+    {
+      "type": "COURSE",
+      "id": "BS-MS Chemistry"
+    },
+    {
+      "type": "COURSE",
+      "id": "BS-MS Mathematics"
+    },
+    {
+      "type": "COURSE",
+      "id": "BS-MS Physics"
+    },
+    {
+      "type": "COURSE",
+      "id": "Earth Sciences"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "IISER Pune"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "IISER Bhopal"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "IISER Kolkata"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "IISER Mohali"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "IISER Thiruvananthapuram"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "National Aptitude Test in Architecture",
+      "exam_type": "Computer Based Test",
+      "location": "",
+      "website": "www.nata.in",
+      "id": "NATA"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Architecture Institutes"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "All India Pre-Veterinary Test",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.vci.nic.in",
+      "id": "AIPVT"
+    },
+    {
+      "type": "COURSE",
+      "id": "B.V.Sc"
+    },
+    {
+      "type": "COURSE",
+      "id": "Animal Husbandry"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Veterinary Colleges"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "All India Entrance Examination for Agriculture and Allied Sciences",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.icar.org.in",
+      "id": "AIEEA"
+    },
+    {
+      "type": "COURSE",
+      "id": "Agriculture"
+    },
+    {
+      "type": "COURSE",
+      "id": "Horticulture"
+    },
+    {
+      "type": "COURSE",
+      "id": "Fisheries"
+    },
+    {
+      "type": "COURSE",
+      "id": "Forestry"
+    },
+    {
+      "type": "COURSE",
+      "id": "Home Science"
+    },
+    {
+      "type": "COURSE",
+      "id": "Sericulture"
+    },
+    {
+      "type": "COURSE",
+      "id": "Biotechnology"
+    },
+    {
+      "type": "COURSE",
+      "id": "Agricultural Engineering"
+    },
+    {
+      "type": "COURSE",
+      "id": "Dairy Technology"
+    },
+    {
+      "type": "COURSE",
+      "id": "Food Science"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Agriculture Universities"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Undergraduate Common Entrance Examination for Design",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.uceed.in",
+      "id": "UCEED"
+    },
+    {
+      "type": "COURSE",
+      "id": "B.Des"
+    },
+    {
+      "type": "COURSE",
+      "id": "Product Design"
+    },
+    {
+      "type": "COURSE",
+      "id": "Communication Design"
+    },
+    {
+      "type": "COURSE",
+      "id": "Interaction Design"
+    },
+    {
+      "type": "COURSE",
+      "id": "Mobility Design"
+    },
+    {
+      "type": "COURSE",
+      "id": "Animation Design"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "IIT Bombay"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Footwear Design and Development Institute All India Selection Test",
+      "exam_type": "Computer Based Entrance Test",
+      "location": "",
+      "website": "www.fddiindia.com",
+      "id": "FDDI AIST"
+    },
+    {
+      "type": "COURSE",
+      "id": "Footwear Design"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Footwear Design and Development Institute"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "National Entrance Screening Test",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.niser.ac.in",
+      "id": "NEST"
+    },
+    {
+      "type": "COURSE",
+      "id": "Integrated M.Sc Biology"
+    },
+    {
+      "type": "COURSE",
+      "id": "Integrated M.Sc Chemistry"
+    },
+    {
+      "type": "COURSE",
+      "id": "Integrated M.Sc Mathematics"
+    },
+    {
+      "type": "COURSE",
+      "id": "Integrated M.Sc Physics"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "NISER"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Regional Institute of Education Common Entrance Exam",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.rieajmer.raj.nic.in",
+      "id": "RIE CEE"
+    },
+    {
+      "type": "COURSE",
+      "id": "B.Sc B.Ed"
+    },
+    {
+      "type": "COURSE",
+      "id": "B.A B.Ed"
+    },
+    {
+      "type": "COURSE",
+      "id": "M.Sc B.Ed"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Regional Institute of Education"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Central Universities Common Entrance Test",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.cucet2015.co.in",
+      "id": "CUCET"
+    },
+    {
+      "type": "COURSE",
+      "id": "Integrated UG"
+    },
+    {
+      "type": "COURSE",
+      "id": "PG"
+    },
+    {
+      "type": "COURSE",
+      "id": "Research Programs"
+    },
+    {
+      "type": "COURSE",
+      "id": "BA B.Ed"
+    },
+    {
+      "type": "COURSE",
+      "id": "BSc B.Ed"
+    },
+    {
+      "type": "COURSE",
+      "id": "BA LLB"
+    },
+    {
+      "type": "COURSE",
+      "id": "MA"
+    },
+    {
+      "type": "COURSE",
+      "id": "MSc"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Central Universities"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Humanities and Social Sciences Entrance Examination",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.hsee.iitm.ac.in",
+      "id": "HSEE"
+    },
+    {
+      "type": "COURSE",
+      "id": "Integrated MA Developmental Studies"
+    },
+    {
+      "type": "COURSE",
+      "id": "MA English Studies"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "IIT Madras"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Tata Institute of Social Sciences",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.tiss.edu.in",
+      "id": "TISS"
+    },
+    {
+      "type": "COURSE",
+      "id": "BA Social Work"
+    },
+    {
+      "type": "COURSE",
+      "id": "Integrated BA MA"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "Tata Institute of Social Sciences"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "National Institute of Fashion Technology",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.nift.ac.in",
+      "id": "NIFT"
+    },
+    {
+      "type": "COURSE",
+      "id": "Fashion Technology"
+    },
+    {
+      "type": "COURSE",
+      "id": "Design Management"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "National Institute of Fashion Technology"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Common Proficiency Test",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.icai.org",
+      "id": "CPT"
+    },
+    {
+      "type": "COURSE",
+      "id": "CA"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "ICAI"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Institute of Company Secretaries of India",
+      "exam_type": "Written Exam",
+      "location": "",
+      "website": "www.icsi.edu",
+      "id": "CS Programme"
+    },
+    {
+      "type": "COURSE",
+      "id": "Company Secretary"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "ICSI"
+    },
+    {
+      "type": "EXAM",
+      "full_name": "Jawaharlal Institute of Postgraduate Medical Education and Research",
+      "exam_type": "Entrance Exam",
+      "location": "",
+      "website": "",
+      "id": "JIPMER"
+    },
+    {
+      "type": "INSTITUTE",
+      "id": "JIPMER Pondicherry"
+    }
+  ],
+  "edges": [
+    {
+      "relationship": "OFFERS",
+      "source": "JEE Main",
+      "target": "B.E"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "JEE Main",
+      "target": "B.Tech"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "JEE Main",
+      "target": "B.Arch"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "JEE Main",
+      "target": "NITs"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "JEE Main",
+      "target": "IIITs"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "JEE Advanced",
+      "target": "B.E"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "JEE Advanced",
+      "target": "B.Tech"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "JEE Advanced",
+      "target": "IITs"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NEET",
+      "target": "MBBS"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NEET",
+      "target": "BDS"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "NEET",
+      "target": "Medical Colleges in India"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AFMC",
+      "target": "MBBS"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "AFMC",
+      "target": "Armed Forces Medical College"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NID NEED",
+      "target": "Design"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "NID NEED",
+      "target": "National Institute of Design"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "NID NEED",
+      "target": "Other Design Institutes"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "CLAT",
+      "target": "Law"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "CLAT",
+      "target": "National Law Universities"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "BITSAT",
+      "target": "B.E"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "BITSAT",
+      "target": "BITS Pilani"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "BITSAT",
+      "target": "BITS Hyderabad"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "BITSAT",
+      "target": "BITS Goa"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NCHMCT",
+      "target": "B.Sc Hospitality"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NCHMCT",
+      "target": "Hotel Administration"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "NCHMCT",
+      "target": "Hotel Management Institutes"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NDA and NA",
+      "target": "Army"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NDA and NA",
+      "target": "Navy"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NDA and NA",
+      "target": "Air Force"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "NDA and NA",
+      "target": "National Defense Academy"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "NDA and NA",
+      "target": "Naval Academy"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "IIST",
+      "target": "B.Tech Avionics"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "IIST",
+      "target": "Aerospace Engineering"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "IIST",
+      "target": "Physical Science"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "IIST",
+      "target": "Indian Institute of Space Technology"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "JNU",
+      "target": "B.A Foreign Language"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "JNU",
+      "target": "Jawaharlal Nehru University"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "ISI",
+      "target": "B.Sc Statistics"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "ISI",
+      "target": "B.Sc Mathematics"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "ISI",
+      "target": "ISI Kolkata"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "ISI",
+      "target": "ISI Bengaluru"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "IISER",
+      "target": "BS-MS Biology"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "IISER",
+      "target": "BS-MS Chemistry"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "IISER",
+      "target": "BS-MS Mathematics"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "IISER",
+      "target": "BS-MS Physics"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "IISER",
+      "target": "Earth Sciences"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "IISER",
+      "target": "IISER Pune"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "IISER",
+      "target": "IISER Bhopal"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "IISER",
+      "target": "IISER Kolkata"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "IISER",
+      "target": "IISER Mohali"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "IISER",
+      "target": "IISER Thiruvananthapuram"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NATA",
+      "target": "B.Arch"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "NATA",
+      "target": "Architecture Institutes"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AIPVT",
+      "target": "B.V.Sc"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AIPVT",
+      "target": "Animal Husbandry"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "AIPVT",
+      "target": "Veterinary Colleges"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AIEEA",
+      "target": "Agriculture"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AIEEA",
+      "target": "Horticulture"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AIEEA",
+      "target": "Fisheries"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AIEEA",
+      "target": "Forestry"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AIEEA",
+      "target": "Home Science"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AIEEA",
+      "target": "Sericulture"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AIEEA",
+      "target": "Biotechnology"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AIEEA",
+      "target": "Agricultural Engineering"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AIEEA",
+      "target": "Dairy Technology"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "AIEEA",
+      "target": "Food Science"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "AIEEA",
+      "target": "Agriculture Universities"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "UCEED",
+      "target": "B.Des"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "UCEED",
+      "target": "Product Design"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "UCEED",
+      "target": "Communication Design"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "UCEED",
+      "target": "Interaction Design"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "UCEED",
+      "target": "Mobility Design"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "UCEED",
+      "target": "Animation Design"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "UCEED",
+      "target": "IIT Bombay"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "FDDI AIST",
+      "target": "Footwear Design"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "FDDI AIST",
+      "target": "Footwear Design and Development Institute"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NEST",
+      "target": "Integrated M.Sc Biology"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NEST",
+      "target": "Integrated M.Sc Chemistry"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NEST",
+      "target": "Integrated M.Sc Mathematics"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NEST",
+      "target": "Integrated M.Sc Physics"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "NEST",
+      "target": "NISER"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "RIE CEE",
+      "target": "B.Sc B.Ed"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "RIE CEE",
+      "target": "B.A B.Ed"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "RIE CEE",
+      "target": "M.Sc B.Ed"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "RIE CEE",
+      "target": "Regional Institute of Education"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "CUCET",
+      "target": "Integrated UG"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "CUCET",
+      "target": "PG"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "CUCET",
+      "target": "Research Programs"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "CUCET",
+      "target": "BA B.Ed"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "CUCET",
+      "target": "BSc B.Ed"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "CUCET",
+      "target": "BA LLB"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "CUCET",
+      "target": "MA"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "CUCET",
+      "target": "MSc"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "CUCET",
+      "target": "Central Universities"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "HSEE",
+      "target": "Integrated MA Developmental Studies"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "HSEE",
+      "target": "MA English Studies"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "HSEE",
+      "target": "IIT Madras"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "TISS",
+      "target": "BA Social Work"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "TISS",
+      "target": "Integrated BA MA"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "TISS",
+      "target": "Tata Institute of Social Sciences"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NIFT",
+      "target": "Fashion Technology"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "NIFT",
+      "target": "Design Management"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "NIFT",
+      "target": "National Institute of Fashion Technology"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "CPT",
+      "target": "CA"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "CPT",
+      "target": "ICAI"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "CS Programme",
+      "target": "Company Secretary"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "CS Programme",
+      "target": "ICSI"
+    },
+    {
+      "relationship": "OFFERS",
+      "source": "JIPMER",
+      "target": "MBBS"
+    },
+    {
+      "relationship": "FOR_INSTITUTE",
+      "source": "JIPMER",
+      "target": "JIPMER Pondicherry"
+    }
+  ]
+}
