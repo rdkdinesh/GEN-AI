@@ -1,0 +1,187 @@
+{
+  "name": "n8n-gsheet-read-sendmail automation",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "documentId": {
+          "__rl": true,
+          "value": "1D7PiNKKlEUspzq9MYzPadzNMktylLOyROnU7-KWsHhA",
+          "mode": "list",
+          "cachedResultName": "n8n-course-detail",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1D7PiNKKlEUspzq9MYzPadzNMktylLOyROnU7-KWsHhA/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1D7PiNKKlEUspzq9MYzPadzNMktylLOyROnU7-KWsHhA/edit#gid=0"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTrigger",
+      "typeVersion": 1,
+      "position": [
+        -656,
+        -32
+      ],
+      "id": "13a49e0c-d270-407f-8ebe-b32abaccc5d4",
+      "name": "Google Sheets Trigger",
+      "credentials": {
+        "googleSheetsTriggerOAuth2Api": {
+          "id": "yX145iWUFnp7A6gp",
+          "name": "Google Sheets Trigger account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "6a5bda73-996f-4c99-91d6-0c71ede7865c",
+              "leftValue": "={{ $json.Name }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        -432,
+        -32
+      ],
+      "id": "853969e0-e5ae-4ec0-b6db-c9e898121ee6",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "7f016961-6eeb-491b-97c4-e86650d61003",
+              "name": "name",
+              "value": "={{ $json.Name }}",
+              "type": "string"
+            },
+            {
+              "id": "334bda37-0f5f-46f9-9c12-4395eef5c4da",
+              "name": "course",
+              "value": "={{ $json.Course }}",
+              "type": "string"
+            },
+            {
+              "id": "a078defd-ee17-4ca0-872f-460a4ff95224",
+              "name": "status",
+              "value": "={{ $json.Status }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        -192,
+        -48
+      ],
+      "id": "431e5522-eb4e-4027-8717-630990085716",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "sendTo": "rdk.g12@gmail.com",
+        "subject": "Data Summary from Google Sheet",
+        "emailType": "text",
+        "message": "=Hi, \n\nHere is the latest data from the sheet:- Name: {{ $json.name }}- Course: {{ $json.course }}- Status: {{ $json.status }} \n\nRegards, \nYour Automation Bot",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        64,
+        -48
+      ],
+      "id": "3098c9e1-f3e3-4f09-88f7-8f911a118a29",
+      "name": "Send a message",
+      "webhookId": "20d8c483-dc74-4abd-90ed-446868d5c230",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "qIIzQedMPYLWXgU6",
+          "name": "Gmail account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Google Sheets Trigger": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "91d0bd69-36af-46d2-88fb-6eed6027de8f",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "1e7b201d1b9d5b71a6bd49c8bbf2a89d6ede9fc6728284c843b197c340891d9a"
+  },
+  "nodeGroups": [],
+  "id": "mbEJByJp5pdRAUuC",
+  "tags": []
+}

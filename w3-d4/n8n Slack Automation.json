@@ -1,0 +1,318 @@
+{
+  "name": "n8n Slack Automation",
+  "nodes": [
+    {
+      "parameters": {
+        "trigger": [
+          "message"
+        ],
+        "channelId": {
+          "__rl": true,
+          "value": "C0C15CWV0G1",
+          "mode": "list",
+          "cachedResultName": "general"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.slackTrigger",
+      "typeVersion": 1,
+      "position": [
+        -2464,
+        -16
+      ],
+      "id": "5c7538d6-969d-4956-9655-80eed7e85b36",
+      "name": "Slack Trigger",
+      "webhookId": "1cc74b7e-cb42-4ab2-892f-a44015e9ce0d",
+      "credentials": {
+        "slackApi": {
+          "id": "puvoLIuSI4jTKAK6",
+          "name": "Slack Bot API KEY Token"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "15a735af-58f7-458f-be83-9ba3ea1c0ac1",
+              "name": "blocks[0].elements[0].elements[0].text",
+              "value": "={{ $json.blocks[0].elements[0].elements[0].text }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        -1936,
+        -32
+      ],
+      "id": "f84126f6-ee53-468d-9cb7-f4c415aafffe",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=List all the products and ingredients needed to make {{ $json.blocks[0].elements[0].elements[0].text }}. Return a clear bulleted list with approximate quantities. Keep it short and practical. If the recipe name is unclear, ask the user to rephrase it.",
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [
+        -1648,
+        -32
+      ],
+      "id": "d801e2c1-ca35-4eae-a4cf-4568e04d925c",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4.1-mini",
+          "mode": "list",
+          "cachedResultName": "gpt-4.1-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        -1648,
+        192
+      ],
+      "id": "082777fd-a212-45db-9837-0a8aee7cd482",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "Rootkaq0ANOb3ZJV",
+          "name": "OpenAI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const llmOutput = $json.text?.trim();\n\nreturn [\n  {\n    json: {\n      output: llmOutput\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1328,
+        -32
+      ],
+      "id": "10f0e191-7184-45d7-887c-0fc7f6111343",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "value": "C0C15CWV0G1",
+          "mode": "list",
+          "cachedResultName": "general"
+        },
+        "text": "={{ $json.output }}",
+        "otherOptions": {}
+      },
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.7,
+      "position": [
+        -1056,
+        -32
+      ],
+      "id": "81a1c19a-bb21-45a2-a7e1-18df5e54c3b1",
+      "name": "Send a message",
+      "webhookId": "49a1e335-475d-405b-a0b8-e0256888bbd4",
+      "credentials": {
+        "slackApi": {
+          "id": "puvoLIuSI4jTKAK6",
+          "name": "Slack Bot API KEY Token"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "fcf916f0-8348-4438-ba00-ede47f4e3947",
+              "leftValue": "={{ !$json.bot_id }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        -2240,
+        -16
+      ],
+      "id": "901a8f9a-71a1-4392-ab5c-c0cb0459590f",
+      "name": "If"
+    }
+  ],
+  "pinData": {
+    "Slack Trigger": [
+      {
+        "json": {
+          "type": "message",
+          "user": "U0C0N2YEUH5",
+          "ts": "1789111730.890419",
+          "bot_id": "B0C17407GBW",
+          "app_id": "A0C1XP78B3J",
+          "text": "Here are the products and ingredients needed to make curd rice:\n\n- Cooked rice – 1 cup (cooled)  \n- Curd (yogurt) – 1 cup  \n- Milk – 2 tablespoons (optional)  \n- Mustard seeds – 1 teaspoon  \n- Green chili – 1 (finely chopped)  \n- Ginger – 1 teaspoon (grated or finely chopped)  \n- Curry leaves – 8-10  \n- Asafoetida (hing) – a pinch  \n- Coriander leaves – 2 tablespoons (chopped)  \n- Salt – to taste  \n- Oil – 1 tablespoon (for tempering)  \n- Chopped cucumber or grated carrot – 1/4 cup (optional)  \n- Fresh coriander or pomegranate seeds – for garnish (optional)  \n\nWould you like the preparation steps as well?\n_Automated with this <https://n8n.srv1964944.hstgr.cloud/workflow/PBIgdak1Bs0NMaAy?utm_source=n8n-internal&amp;utm_medium=powered_by&amp;utm_campaign=n8n-nodes-base.slack_1e7b201d1b9d5b71a6bd49c8bbf2a89d6ede9fc6728284c843b197c340891d9a|n8n workflow>_",
+          "team": "T0C0ZN35V2N",
+          "bot_profile": {
+            "id": "B0C17407GBW",
+            "deleted": false,
+            "name": "n8n Recipe Assistant Bot",
+            "updated": 1789098265,
+            "app_id": "A0C1XP78B3J",
+            "user_id": "U0C0N2YEUH5",
+            "icons": {
+              "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+              "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+              "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+            },
+            "team_id": "T0C0ZN35V2N"
+          },
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2fpV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Here are the products and ingredients needed to make curd rice:\n\n- Cooked rice – 1 cup (cooled)  \n- Curd (yogurt) – 1 cup  \n- Milk – 2 tablespoons (optional)  \n- Mustard seeds – 1 teaspoon  \n- Green chili – 1 (finely chopped)  \n- Ginger – 1 teaspoon (grated or finely chopped)  \n- Curry leaves – 8-10  \n- Asafoetida (hing) – a pinch  \n- Coriander leaves – 2 tablespoons (chopped)  \n- Salt – to taste  \n- Oil – 1 tablespoon (for tempering)  \n- Chopped cucumber or grated carrot – 1/4 cup (optional)  \n- Fresh coriander or pomegranate seeds – for garnish (optional)  \n\nWould you like the preparation steps as well?\n"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Automated with this ",
+                      "style": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://n8n.srv1964944.hstgr.cloud/workflow/PBIgdak1Bs0NMaAy?utm_source=n8n-internal&amp;utm_medium=powered_by&amp;utm_campaign=n8n-nodes-base.slack_1e7b201d1b9d5b71a6bd49c8bbf2a89d6ede9fc6728284c843b197c340891d9a",
+                      "text": "n8n workflow",
+                      "style": {
+                        "italic": true
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "channel": "C0C15CWV0G1",
+          "event_ts": "1789111730.890419",
+          "channel_type": "channel"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "Slack Trigger": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "a3ba1aef-c18f-4f5c-8bfe-a57196c70991",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "1e7b201d1b9d5b71a6bd49c8bbf2a89d6ede9fc6728284c843b197c340891d9a"
+  },
+  "nodeGroups": [],
+  "id": "PBIgdak1Bs0NMaAy",
+  "tags": []
+}
